@@ -204,7 +204,12 @@ input[type="text"] {
 div#search {
     margin-left: 10px;
 }
-
+div#search input{
+    transition: 0.4s ease-in-out;
+}
+div#search input:focus{
+    padding-right: 70px;
+}
 .border{
     border-right: 1px solid grey;
 }
@@ -303,9 +308,9 @@ div#search {
     margin-bottom: 89px;
 }
 .slider_button {
-    /*position: absolute;
+    position: absolute;
     left: 7%;
-    top: 75%;*/
+    bottom: 5%;
     display: flex;
     justify-content: space-between;
         margin-bottom: 50px;
@@ -1024,6 +1029,16 @@ o{
     background: #fff;
 
 }
-
+@media only screen and (max-width: 640px){
+    .wrapper{
+        width: 640px;
+    }
+    .boxed {
+        width: 640px;
+    }
+    .middle{
+        width: 640px;
+    }
+}
 
 
